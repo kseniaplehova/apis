@@ -1,4 +1,7 @@
 package by.bsu.fitness.observer;
 
-public class Observer {
+import by.bsu.fitness.entity.Training;
+
+public interface Observer {
+    void update(Training training);
 }

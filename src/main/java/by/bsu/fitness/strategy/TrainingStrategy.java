@@ -1,4 +1,12 @@
 package by.bsu.fitness.strategy;
 
-public class TrainingStrategy {
+import by.bsu.fitness.entity.Training;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public interface TrainingStrategy {
+
+    Logger LOGGER = LogManager.getLogger(TrainingStrategy.class);
+
+    void execute(Training training);
 }

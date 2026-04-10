@@ -1,4 +1,6 @@
 package by.bsu.fitness.entity;
 
-public class TrainingType {
+public enum TrainingType {
+    GROUP,
+    PERSONAL
 }

@@ -1,4 +1,7 @@
 package by.bsu.fitness.entity;
 
-public class SubscriptionType {
+public enum SubscriptionType {
+    MONTHLY,
+    YEARLY,
+    VISIT_BASED
 }

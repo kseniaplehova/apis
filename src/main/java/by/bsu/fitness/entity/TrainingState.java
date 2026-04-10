@@ -1,4 +1,8 @@
 package by.bsu.fitness.entity;
 
-public class TrainingState {
+public enum TrainingState {
+    PLANNED,
+    ACTIVE,
+    FINISHED,
+    CANCELED
 }

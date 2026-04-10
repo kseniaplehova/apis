@@ -1,4 +1,7 @@
 package by.bsu.fitness.specification;
 
-public class TrainingSpecification {
+import by.bsu.fitness.entity.Training;
+
+public interface TrainingSpecification {
+    boolean match(Training training);
 }
