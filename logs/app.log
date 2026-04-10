@@ -1,0 +1,181 @@
+2026-02-28 11:44:31 INFO  by.bsu.fitness.main.FitnessMain - Application started
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - TrainingValidator created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.SubscriptionValidator - SubscriptionValidator created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - DataValidator created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.SubscriptionFactory - SubscriptionFactory created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.NotificationService - NotificationService created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.SubscriptionService - SubscriptionService created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.TrainingService - TrainingService created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - TrainingFileReader created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Client - Client created: Client{id=1, name='Ксения', phone='+44-111-222-333'}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Client - Client created: Client{id=2, name='Антон', phone='+44-444-555-666'}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.ClientRepository - Client added: 1 (Ксения)
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.ClientRepository - Client added: 2 (Антон)
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.ClientObserver - ClientObserver created for client 1 (Ксения)
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.TrainingScheduleObservable - Observer added: ClientObserver
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.NotificationService - Client 1 (Ксения) subscribed to notifications
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.ClientObserver - ClientObserver created for client 2 (Антон)
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.TrainingScheduleObservable - Observer added: ClientObserver
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.NotificationService - Client 2 (Антон) subscribed to notifications
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 1
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Subscription - Subscription created: Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.SubscriptionFactory - Subscription created: Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.SubscriptionValidator - Subscription 1 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription added: Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.service.SubscriptionService - Subscription 1 created and saved
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=2, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T11:44:31.177068500, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=2, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T11:44:31.177068500, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 2 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 1 -> Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.TrainingRepository - Training added: Training{id=2, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T11:44:31.177068500, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - RegistrationTemplate created for training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - GroupTrainingRegistration created for training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Starting registration process for training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Validating group training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Reserving slot for group training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Applying strategy for training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.strategy.GroupTrainingStrategy - Executing group training strategy for training 2
+2026-02-28 11:44:31 INFO  by.bsu.fitness.strategy.GroupTrainingStrategy - Group training with coach Иванов for client 1
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Notifying observers about training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.TrainingScheduleObservable - Notifying 2 observers about training 2
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 1 (Ксения) notified about new training: Training{id=2, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T11:44:31.177068500, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 2 (Антон) notified about new training: Training{id=2, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T11:44:31.177068500, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Registration process finished for training 2
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Read 11 lines from file resources/data/trainings.txt
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Header line skipped: clientId,coachName,type,dateTime,duration,state
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 1,Иванов,GROUP,2026-03-01T10:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 2,Петров,PERSONAL,2026-03-02T12:00,45,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 4
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=4, clientId=2, coachName='Петров', type=PERSONAL, dateTime=2026-03-02T12:00, durationMinutes=45, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=4, clientId=2, coachName='Петров', type=PERSONAL, dateTime=2026-03-02T12:00, durationMinutes=45, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=4, clientId=2, coachName='Петров', type=PERSONAL, dateTime=2026-03-02T12:00, durationMinutes=45, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 4
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 12,Сидоров,PERSONAL,2025-03-10T14:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 5
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=5, clientId=12, coachName='Сидоров', type=PERSONAL, dateTime=2025-03-10T14:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=5, clientId=12, coachName='Сидоров', type=PERSONAL, dateTime=2025-03-10T14:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=5, clientId=12, coachName='Сидоров', type=PERSONAL, dateTime=2025-03-10T14:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 5
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 1,Иванов,GROUP,2026-03-05T18:00,90,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 2,Петров,GROUP,2026-03-06T09:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 7
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=7, clientId=2, coachName='Петров', type=GROUP, dateTime=2026-03-06T09:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=7, clientId=2, coachName='Петров', type=GROUP, dateTime=2026-03-06T09:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=7, clientId=2, coachName='Петров', type=GROUP, dateTime=2026-03-06T09:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 7
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 999,Иванов,PERSONAL,2026-03-07T11:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 8
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=8, clientId=999, coachName='Иванов', type=PERSONAL, dateTime=2026-03-07T11:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=8, clientId=999, coachName='Иванов', type=PERSONAL, dateTime=2026-03-07T11:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=8, clientId=999, coachName='Иванов', type=PERSONAL, dateTime=2026-03-07T11:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 8
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED
+2026-02-28 11:44:31 ERROR by.bsu.fitness.util.TrainingFileReader - Failed to parse line: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Invalid training format: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED, cause: java.lang.IllegalArgumentException: No enum constant by.bsu.fitness.entity.TrainingType.WRONGTYPE
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ValidationException - ValidationException: Invalid training format: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED, cause: java.lang.IllegalArgumentException: No enum constant by.bsu.fitness.entity.TrainingType.WRONGTYPE
+2026-02-28 11:44:31 ERROR by.bsu.fitness.util.TrainingFileReader - Invalid line skipped: FAILED: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED -> Invalid training format: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 2,,PERSONAL,2026-03-09T10:00,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 9
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=9, clientId=2, coachName='', type=PERSONAL, dateTime=2026-03-09T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=9, clientId=2, coachName='', type=PERSONAL, dateTime=2026-03-09T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=9, clientId=2, coachName='', type=PERSONAL, dateTime=2026-03-09T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 9
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 1,Иванов,GROUP,WRONGDATE,60,PLANNED
+2026-02-28 11:44:31 ERROR by.bsu.fitness.util.TrainingFileReader - Failed to parse line: 1,Иванов,GROUP,WRONGDATE,60,PLANNED
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Invalid training format: 1,Иванов,GROUP,WRONGDATE,60,PLANNED, cause: java.time.format.DateTimeParseException: Text 'WRONGDATE' could not be parsed at index 0
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ValidationException - ValidationException: Invalid training format: 1,Иванов,GROUP,WRONGDATE,60,PLANNED, cause: java.time.format.DateTimeParseException: Text 'WRONGDATE' could not be parsed at index 0
+2026-02-28 11:44:31 ERROR by.bsu.fitness.util.TrainingFileReader - Invalid line skipped: FAILED: 1,Иванов,GROUP,WRONGDATE,60,PLANNED -> Invalid training format: 1,Иванов,GROUP,WRONGDATE,60,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.DataValidator - Line validated: 1,Иванов,GROUP,2026-03-10T10:00,-30,PLANNED
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - TrainingBuilder created
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.IdGenerator - Generated new id: 10
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.entity.Training - Training created: Training{id=10, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-10T10:00, durationMinutes=-30, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.factory.TrainingBuilder - Training built: Training{id=10, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-10T10:00, durationMinutes=-30, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed: Training{id=10, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-10T10:00, durationMinutes=-30, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.util.TrainingFileReader - Training parsed and added: 10
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 3 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 1 -> Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.TrainingRepository - Training added: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - RegistrationTemplate created for training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - GroupTrainingRegistration created for training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Starting registration process for training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Validating group training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Reserving slot for group training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Applying strategy for training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.strategy.GroupTrainingStrategy - Executing group training strategy for training 3
+2026-02-28 11:44:31 INFO  by.bsu.fitness.strategy.GroupTrainingStrategy - Group training with coach Иванов for client 1
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Notifying observers about training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.TrainingScheduleObservable - Notifying 2 observers about training 3
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 1 (Ксения) notified about new training: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 2 (Антон) notified about new training: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Registration process finished for training 3
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 4 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 2 -> null
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 5 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 12 -> null
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 6 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 1 -> Subscription{id=1, clientId=1, type=MONTHLY, startDate=2026-02-28, endDate=2026-03-28, state=ACTIVE}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.TrainingRepository - Training added: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - RegistrationTemplate created for training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - GroupTrainingRegistration created for training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Starting registration process for training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Validating group training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.GroupTrainingRegistration - Reserving slot for group training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Applying strategy for training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.strategy.GroupTrainingStrategy - Executing group training strategy for training 6
+2026-02-28 11:44:31 INFO  by.bsu.fitness.strategy.GroupTrainingStrategy - Group training with coach Иванов for client 1
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Notifying observers about training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.observer.TrainingScheduleObservable - Notifying 2 observers about training 6
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 1 (Ксения) notified about new training: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 INFO  by.bsu.fitness.observer.ClientObserver - Client 2 (Антон) notified about new training: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.template.RegistrationTemplate - Registration process finished for training 6
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 7 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 2 -> null
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.validator.TrainingValidator - Training 8 validated successfully
+2026-02-28 11:44:31 DEBUG by.bsu.fitness.repository.SubscriptionRepository - Subscription lookup by clientId 999 -> null
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ServiceException: No subscription for client
+2026-02-28 11:44:31 ERROR by.bsu.fitness.validator.TrainingValidator - Coach name is empty
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Coach name cannot be empty
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ValidationException - ValidationException: Coach name cannot be empty
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ValidationException: Coach name cannot be empty
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ValidationException: Coach name cannot be empty
+2026-02-28 11:44:31 ERROR by.bsu.fitness.validator.TrainingValidator - Invalid duration: -30
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Duration must be positive
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ValidationException - ValidationException: Duration must be positive
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.FitnessException - FitnessException created: Training registration failed, cause: by.bsu.fitness.exception.ValidationException: Duration must be positive
+2026-02-28 11:44:31 ERROR by.bsu.fitness.exception.ServiceException - ServiceException: Training registration failed, cause: by.bsu.fitness.exception.ValidationException: Duration must be positive
+2026-02-28 11:44:31 INFO  by.bsu.fitness.main.FitnessMain - Result written to D:\Study\University\2st year\4_sem\java\fitness-club\output\result.txt
+2026-02-28 11:44:31 INFO  by.bsu.fitness.main.FitnessMain - Application finished successfully

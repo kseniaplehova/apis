@@ -1,0 +1,11 @@
+=== TRAINING REPORT ===
+FAILED: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED -> Invalid training format: 1,Иванов,WRONGTYPE,2026-03-08T10:00,60,PLANNED
+FAILED: 1,Иванов,GROUP,WRONGDATE,60,PLANNED -> Invalid training format: 1,Иванов,GROUP,WRONGDATE,60,PLANNED
+SUCCESS: Training{id=3, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-01T10:00, durationMinutes=60, state=PLANNED}
+FAILED: Training{id=4, clientId=2, coachName='Петров', type=PERSONAL, dateTime=2026-03-02T12:00, durationMinutes=45, state=PLANNED} -> Training registration failed
+FAILED: Training{id=5, clientId=12, coachName='Сидоров', type=PERSONAL, dateTime=2025-03-10T14:00, durationMinutes=60, state=PLANNED} -> Training registration failed
+SUCCESS: Training{id=6, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-05T18:00, durationMinutes=90, state=PLANNED}
+FAILED: Training{id=7, clientId=2, coachName='Петров', type=GROUP, dateTime=2026-03-06T09:00, durationMinutes=60, state=PLANNED} -> Training registration failed
+FAILED: Training{id=8, clientId=999, coachName='Иванов', type=PERSONAL, dateTime=2026-03-07T11:00, durationMinutes=60, state=PLANNED} -> Training registration failed
+FAILED: Training{id=9, clientId=2, coachName='', type=PERSONAL, dateTime=2026-03-09T10:00, durationMinutes=60, state=PLANNED} -> Training registration failed
+FAILED: Training{id=10, clientId=1, coachName='Иванов', type=GROUP, dateTime=2026-03-10T10:00, durationMinutes=-30, state=PLANNED} -> Training registration failed
