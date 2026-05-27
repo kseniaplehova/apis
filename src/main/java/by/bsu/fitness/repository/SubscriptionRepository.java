@@ -4,35 +4,34 @@ import by.bsu.fitness.entity.Subscription;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 public class SubscriptionRepository {
 
     private static final Logger LOGGER = LogManager.getLogger(SubscriptionRepository.class);
 
-    private final Map<Long, Subscription> subscriptions = new HashMap<>();
+    private final List<Subscription> subscriptions = new ArrayList<>();
 
     public void add(Subscription subscription) {
-        subscriptions.put(subscription.getId(), subscription);
+        subscriptions.add(subscription);
         LOGGER.debug("Subscription added: {}", subscription);
     }
 
-    public Subscription findById(long id) {
-        Subscription s = subscriptions.get(id);
-        LOGGER.debug("Subscription lookup by id {} -> {}", id, s);
-        return s;
+    public Optional<Subscription> findById(long id) {
+        Optional<Subscription> result = subscriptions.stream()
+                .filter(s -> s.getId() == id)
+                .findFirst();
+        LOGGER.debug("Subscription lookup by id {} -> {}", id, result.isPresent() ? result.get() : "null");
+        return result;
     }
 
-    // ✔ Вот этот метод нужен TrainingService
-    public Subscription findByClientId(long clientId) {
-        for (Subscription s : subscriptions.values()) {
-            if (s.getClientId() == clientId) {
-                LOGGER.debug("Subscription lookup by clientId {} -> {}", clientId, s);
-                return s;
-            }
-        }
-        LOGGER.debug("Subscription lookup by clientId {} -> null", clientId);
-        return null;
+    public Optional<Subscription> findByClientId(long clientId) {
+        Optional<Subscription> result = subscriptions.stream()
+                .filter(s -> s.getClientId() == clientId)
+                .findFirst();
+        LOGGER.debug("Subscription lookup by clientId {} -> {}", clientId, result.isPresent() ? result.get() : "null");
+        return result;
     }
 }

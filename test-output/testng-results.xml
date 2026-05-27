@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="196" passed="196" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-27T23:05:06 MSK" name="Command line suite" finished-at="2026-05-27T23:05:09 MSK" duration-ms="2852">
+    <groups>
+    </groups>
+    <test started-at="2026-05-27T23:05:06 MSK" name="Command line test" finished-at="2026-05-27T23:05:09 MSK" duration-ms="2852">
+      <class name="by.bsu.fitness.exception.ExceptionTest">
+        <test-method signature="testFitnessExceptionCause()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testFitnessExceptionCause" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFitnessExceptionCause -->
+        <test-method signature="testFitnessExceptionIsException()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testFitnessExceptionIsException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFitnessExceptionIsException -->
+        <test-method signature="testFitnessExceptionMessage()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testFitnessExceptionMessage" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFitnessExceptionMessage -->
+        <test-method signature="testRepositoryExceptionIsFitnessException()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testRepositoryExceptionIsFitnessException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepositoryExceptionIsFitnessException -->
+        <test-method signature="testRepositoryExceptionMessage()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testRepositoryExceptionMessage" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepositoryExceptionMessage -->
+        <test-method signature="testRepositoryExceptionWithCause()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testRepositoryExceptionWithCause" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepositoryExceptionWithCause -->
+        <test-method signature="testServiceExceptionIsFitnessException()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testServiceExceptionIsFitnessException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServiceExceptionIsFitnessException -->
+        <test-method signature="testServiceExceptionMessage()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testServiceExceptionMessage" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServiceExceptionMessage -->
+        <test-method signature="testServiceExceptionWithCause()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testServiceExceptionWithCause" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServiceExceptionWithCause -->
+        <test-method signature="testValidationExceptionIsFitnessException()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testValidationExceptionIsFitnessException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidationExceptionIsFitnessException -->
+        <test-method signature="testValidationExceptionMessage()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testValidationExceptionMessage" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidationExceptionMessage -->
+        <test-method signature="testValidationExceptionWithCause()[pri:0, instance:by.bsu.fitness.exception.ExceptionTest@5e57643e]" started-at="2026-05-27T23:05:08 MSK" name="testValidationExceptionWithCause" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidationExceptionWithCause -->
+      </class> <!-- by.bsu.fitness.exception.ExceptionTest -->
+      <class name="by.bsu.fitness.observer.TrainingScheduleObservableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNoObserversNoNotification()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testNoObserversNoNotification" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoObserversNoNotification -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotifyCallsUpdate()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testNotifyCallsUpdate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotifyCallsUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotifyPassesCorrectTrainingId()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testNotifyPassesCorrectTrainingId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotifyPassesCorrectTrainingId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testObservableImplementsObservable()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testObservableImplementsObservable" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObservableImplementsObservable -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveObserverPreventsNotification()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testRemoveObserverPreventsNotification" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveObserverPreventsNotification -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTwoObserversBothNotified()[pri:0, instance:by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18]" started-at="2026-05-27T23:05:08 MSK" name="testTwoObserversBothNotified" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoObserversBothNotified -->
+      </class> <!-- by.bsu.fitness.observer.TrainingScheduleObservableTest -->
+      <class name="by.bsu.fitness.entity.ClientTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:06 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEqualsIdenticalClients()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testEqualsIdenticalClients" finished-at="2026-05-27T23:05:07 MSK" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqualsIdenticalClients -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetIdReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testGetIdReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIdReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetNameReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testGetNameReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNameReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetPhoneReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testGetPhoneReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPhoneReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHashCodeConsistentWithEquals()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testHashCodeConsistentWithEquals" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHashCodeConsistentWithEquals -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotEqualsDifferentId()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testNotEqualsDifferentId" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotEqualsDifferentId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetNameUpdatesName()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testSetNameUpdatesName" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetNameUpdatesName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetPhoneUpdatesPhone()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testSetPhoneUpdatesPhone" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetPhoneUpdatesPhone -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToStringContainsId()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testToStringContainsId" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToStringContainsId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToStringNotNull()[pri:0, instance:by.bsu.fitness.entity.ClientTest@b3d7190]" started-at="2026-05-27T23:05:07 MSK" name="testToStringNotNull" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToStringNotNull -->
+      </class> <!-- by.bsu.fitness.entity.ClientTest -->
+      <class name="by.bsu.fitness.validator.DataValidatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFiveFieldsLineIsValid()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testFiveFieldsLineIsValid" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFiveFieldsLineIsValid -->
+        <test-method signature="testInvalidLineReturnsFalse(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testInvalidLineReturnsFalse" data-provider="invalidLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLineReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLineReturnsFalse(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testInvalidLineReturnsFalse" data-provider="invalidLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLineReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLineReturnsFalse(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testInvalidLineReturnsFalse" data-provider="invalidLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,2,3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLineReturnsFalse -->
+        <test-method signature="testInvalidLineReturnsFalse(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testInvalidLineReturnsFalse" data-provider="invalidLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a,b,c,d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLineReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLineReturnsTrue(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testValidLineReturnsTrue" data-provider="validLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,Иванов,GROUP,2026-06-01T10:00,60,PLANNED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLineReturnsTrue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLineReturnsTrue(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testValidLineReturnsTrue" data-provider="validLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,Петров,PERSONAL,2026-07-01T11:00,45,PLANNED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLineReturnsTrue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLineReturnsTrue(java.lang.String)[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testValidLineReturnsTrue" data-provider="validLines" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,a,b,c,d,e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLineReturnsTrue -->
+        <test-method signature="testValidatorImplementsValidatorInterface()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="testValidatorImplementsValidatorInterface" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatorImplementsValidatorInterface -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.DataValidatorTest@1cab0bfb]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- by.bsu.fitness.validator.DataValidatorTest -->
+      <class name="by.bsu.fitness.repository.ClientRepositoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddMultipleClientsCanFindSecond()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testAddMultipleClientsCanFindSecond" finished-at="2026-05-27T23:05:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleClientsCanFindSecond -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdAbsentClientReturnsEmpty()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdAbsentClientReturnsEmpty" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdAbsentClientReturnsEmpty -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdAfterAddReturnsPresent()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdAfterAddReturnsPresent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdAfterAddReturnsPresent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdReturnsCorrectClient()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdReturnsCorrectClient" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdReturnsCorrectClient -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdReturnsCorrectId()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdReturnsCorrectId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdReturnsCorrectId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdReturnsPhone()[pri:0, instance:by.bsu.fitness.repository.ClientRepositoryTest@5e955596]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdReturnsPhone" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdReturnsPhone -->
+      </class> <!-- by.bsu.fitness.repository.ClientRepositoryTest -->
+      <class name="by.bsu.fitness.factory.SubscriptionFactoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateFromSupplierEmptyForNullSupplier()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateFromSupplierEmptyForNullSupplier" finished-at="2026-05-27T23:05:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFromSupplierEmptyForNullSupplier -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateFromSupplierIsPresentForValidParams()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateFromSupplierIsPresentForValidParams" finished-at="2026-05-27T23:05:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFromSupplierIsPresentForValidParams -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateFromSupplierUsesProvidedType()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateFromSupplierUsesProvidedType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFromSupplierUsesProvidedType -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionClientIdSet()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionClientIdSet" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionClientIdSet -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionEmptyForNegativeClientId()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionEmptyForNegativeClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionEmptyForNegativeClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionEmptyForNullType()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionEmptyForNullType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionEmptyForNullType -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionEmptyForZeroClientId()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionEmptyForZeroClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionEmptyForZeroClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionIsPresentForValidParams(by.bsu.fitness.entity.SubscriptionType)[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionIsPresentForValidParams" data-provider="validTypes" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MONTHLY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionIsPresentForValidParams -->
+        <test-method signature="testCreateSubscriptionIsPresentForValidParams(by.bsu.fitness.entity.SubscriptionType)[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionIsPresentForValidParams" data-provider="validTypes" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YEARLY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionIsPresentForValidParams -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionIsPresentForValidParams(by.bsu.fitness.entity.SubscriptionType)[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionIsPresentForValidParams" data-provider="validTypes" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISIT_BASED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionIsPresentForValidParams -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionMonthlyEndDate()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionMonthlyEndDate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionMonthlyEndDate -->
+        <test-method signature="testCreateSubscriptionStateIsActive()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionStateIsActive" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionStateIsActive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionVisitBasedEndDate()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionVisitBasedEndDate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionVisitBasedEndDate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionYearlyEndDate()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionYearlyEndDate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionYearlyEndDate -->
+        <test-method signature="testToSupplierWithTypeGetReturnsInvalidForBadClientId()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testToSupplierWithTypeGetReturnsInvalidForBadClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToSupplierWithTypeGetReturnsInvalidForBadClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToSupplierWithTypeGetReturnsPresent()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testToSupplierWithTypeGetReturnsPresent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToSupplierWithTypeGetReturnsPresent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToSupplierWithTypeNotNull()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testToSupplierWithTypeNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToSupplierWithTypeNotNull -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToSupplierWithTypeSupplierGetReturnsPresent()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testToSupplierWithTypeSupplierGetReturnsPresent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToSupplierWithTypeSupplierGetReturnsPresent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToSupplierWithTypeSupplierNotNull()[pri:0, instance:by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd]" started-at="2026-05-27T23:05:08 MSK" name="testToSupplierWithTypeSupplierNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToSupplierWithTypeSupplierNotNull -->
+      </class> <!-- by.bsu.fitness.factory.SubscriptionFactoryTest -->
+      <class name="by.bsu.fitness.entity.TrainingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEqualsIdenticalTrainings()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testEqualsIdenticalTrainings" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqualsIdenticalTrainings -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientIdReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetClientIdReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientIdReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetCoachNameReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetCoachNameReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCoachNameReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetDateTimeReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetDateTimeReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDateTimeReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetDurationMinutesReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetDurationMinutesReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDurationMinutesReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetIdReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetIdReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIdReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetStatePlanned()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetStatePlanned" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStatePlanned -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetTypeGroup()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testGetTypeGroup" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTypeGroup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHashCodeConsistentWithEquals()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testHashCodeConsistentWithEquals" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHashCodeConsistentWithEquals -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotEqualsDifferentId()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testNotEqualsDifferentId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotEqualsDifferentId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetStateActive()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testSetStateActive" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStateActive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetStateCanceled()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testSetStateCanceled" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStateCanceled -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetStateFinished()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testSetStateFinished" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStateFinished -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToStringNotNull()[pri:0, instance:by.bsu.fitness.entity.TrainingTest@4b9e255]" started-at="2026-05-27T23:05:08 MSK" name="testToStringNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToStringNotNull -->
+      </class> <!-- by.bsu.fitness.entity.TrainingTest -->
+      <class name="by.bsu.fitness.strategy.StrategyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroupStrategyExecuteDoesNotChangeState()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="testGroupStrategyExecuteDoesNotChangeState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupStrategyExecuteDoesNotChangeState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroupStrategyImplementsTrainingStrategy()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="testGroupStrategyImplementsTrainingStrategy" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupStrategyImplementsTrainingStrategy -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPersonalStrategyExecuteDoesNotChangeState()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="testPersonalStrategyExecuteDoesNotChangeState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalStrategyExecuteDoesNotChangeState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPersonalStrategyImplementsTrainingStrategy()[pri:0, instance:by.bsu.fitness.strategy.StrategyTest@6c9f5c0d]" started-at="2026-05-27T23:05:08 MSK" name="testPersonalStrategyImplementsTrainingStrategy" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalStrategyImplementsTrainingStrategy -->
+      </class> <!-- by.bsu.fitness.strategy.StrategyTest -->
+      <class name="by.bsu.fitness.service.TrainingServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterPersonalTrainingSuccessAddsToRepository()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterPersonalTrainingSuccessAddsToRepository" finished-at="2026-05-27T23:05:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPersonalTrainingSuccessAddsToRepository -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterTrainingExpiredSubscriptionThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterTrainingExpiredSubscriptionThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Subscription expired]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Subscription expired
+at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:62)
+at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingExpiredSubscriptionThrowsServiceException(TrainingServiceTest.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterTrainingExpiredSubscriptionThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterTrainingFrozenSubscriptionThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterTrainingFrozenSubscriptionThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Subscription is frozen]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Subscription is frozen
+at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:57)
+at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingFrozenSubscriptionThrowsServiceException(TrainingServiceTest.java:66)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterTrainingFrozenSubscriptionThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterTrainingNoSubscriptionThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterTrainingNoSubscriptionThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[No subscription for client 999]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: No subscription for client 999
+at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:52)
+at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNoSubscriptionThrowsServiceException(TrainingServiceTest.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterTrainingNoSubscriptionThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterTrainingNullThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterTrainingNullThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Training validation failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Training validation failed
+at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:47)
+at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNullThrowsServiceException(TrainingServiceTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterTrainingNullThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegisterTrainingSuccessAddsToRepository()[pri:0, instance:by.bsu.fitness.service.TrainingServiceTest@140e5a13]" started-at="2026-05-27T23:05:08 MSK" name="testRegisterTrainingSuccessAddsToRepository" finished-at="2026-05-27T23:05:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterTrainingSuccessAddsToRepository -->
+      </class> <!-- by.bsu.fitness.service.TrainingServiceTest -->
+      <class name="by.bsu.fitness.repository.SubscriptionRepositoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByClientIdAbsentReturnsEmpty()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByClientIdAbsentReturnsEmpty" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByClientIdAbsentReturnsEmpty -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByClientIdAfterAddReturnsPresent()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByClientIdAfterAddReturnsPresent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByClientIdAfterAddReturnsPresent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByClientIdReturnsCorrectClientId()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByClientIdReturnsCorrectClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByClientIdReturnsCorrectClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByClientIdReturnsCorrectState()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByClientIdReturnsCorrectState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByClientIdReturnsCorrectState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdAbsentReturnsEmpty()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdAbsentReturnsEmpty" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdAbsentReturnsEmpty -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdAfterAddReturnsPresent()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdAfterAddReturnsPresent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdAfterAddReturnsPresent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindByIdReturnsCorrectType()[pri:0, instance:by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926]" started-at="2026-05-27T23:05:08 MSK" name="testFindByIdReturnsCorrectType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByIdReturnsCorrectType -->
+      </class> <!-- by.bsu.fitness.repository.SubscriptionRepositoryTest -->
+      <class name="by.bsu.fitness.validator.SubscriptionValidatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEndBeforeStartReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testEndBeforeStartReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndBeforeStartReturnsFalse -->
+        <test-method signature="testNegativeClientIdReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testNegativeClientIdReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeClientIdReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNullEndDateReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testNullEndDateReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullEndDateReturnsFalse -->
+        <test-method signature="testNullStartDateReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testNullStartDateReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullStartDateReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNullSubscriptionReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testNullSubscriptionReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullSubscriptionReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidSubscriptionReturnsTrue()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testValidSubscriptionReturnsTrue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidSubscriptionReturnsTrue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidatorImplementsValidatorInterface()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testValidatorImplementsValidatorInterface" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatorImplementsValidatorInterface -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testZeroClientIdReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310]" started-at="2026-05-27T23:05:08 MSK" name="testZeroClientIdReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroClientIdReturnsFalse -->
+      </class> <!-- by.bsu.fitness.validator.SubscriptionValidatorTest -->
+      <class name="by.bsu.fitness.validator.TrainingValidatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyCoachNameReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testEmptyCoachNameReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCoachNameReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeClientIdReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testNegativeClientIdReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeClientIdReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeDurationReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testNegativeDurationReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeDurationReturnsFalse -->
+        <test-method signature="testNullCoachNameReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testNullCoachNameReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullCoachNameReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNullTrainingReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testNullTrainingReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullTrainingReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidTrainingReturnsTrue()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testValidTrainingReturnsTrue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidTrainingReturnsTrue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidatorImplementsValidatorInterface()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testValidatorImplementsValidatorInterface" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatorImplementsValidatorInterface -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testZeroClientIdReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testZeroClientIdReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroClientIdReturnsFalse -->
+        <test-method signature="testZeroDurationReturnsFalse()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="testZeroDurationReturnsFalse" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroDurationReturnsFalse -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- by.bsu.fitness.validator.TrainingValidatorTest -->
+      <class name="by.bsu.fitness.template.RegistrationTemplateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroupRegistrationNotifiesObservers()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="testGroupRegistrationNotifiesObservers" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupRegistrationNotifiesObservers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGroupRegistrationNotifiesWithCorrectTrainingId()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="testGroupRegistrationNotifiesWithCorrectTrainingId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupRegistrationNotifiesWithCorrectTrainingId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPersonalRegistrationNotifiesObservers()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="testPersonalRegistrationNotifiesObservers" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalRegistrationNotifiesObservers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPersonalRegistrationNotifiesWithCorrectTrainingId()[pri:0, instance:by.bsu.fitness.template.RegistrationTemplateTest@de3a06f]" started-at="2026-05-27T23:05:08 MSK" name="testPersonalRegistrationNotifiesWithCorrectTrainingId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalRegistrationNotifiesWithCorrectTrainingId -->
+      </class> <!-- by.bsu.fitness.template.RegistrationTemplateTest -->
+      <class name="by.bsu.fitness.specification.TrainingSpecificationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByClientIdDoesNotMatchOtherClient()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByClientIdDoesNotMatchOtherClient" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByClientIdDoesNotMatchOtherClient -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByClientIdMatchesCorrectClient()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByClientIdMatchesCorrectClient" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByClientIdMatchesCorrectClient -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByCoachNameDoesNotMatchOtherName()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByCoachNameDoesNotMatchOtherName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByCoachNameDoesNotMatchOtherName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByCoachNameMatchesCorrectName()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByCoachNameMatchesCorrectName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByCoachNameMatchesCorrectName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByDateDoesNotMatchOtherDate()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByDateDoesNotMatchOtherDate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByDateDoesNotMatchOtherDate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByDateMatchesCorrectDate()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByDateMatchesCorrectDate" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByDateMatchesCorrectDate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByDurationDoesNotMatchOtherDuration()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByDurationDoesNotMatchOtherDuration" finished-at="2026-05-27T23:05:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByDurationDoesNotMatchOtherDuration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByDurationMatchesCorrectDuration()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByDurationMatchesCorrectDuration" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByDurationMatchesCorrectDuration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByTypeDoesNotMatchPersonalType()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByTypeDoesNotMatchPersonalType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByTypeDoesNotMatchPersonalType -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testByTypeMatchesGroupType()[pri:0, instance:by.bsu.fitness.specification.TrainingSpecificationTest@17695df3]" started-at="2026-05-27T23:05:08 MSK" name="testByTypeMatchesGroupType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testByTypeMatchesGroupType -->
+      </class> <!-- by.bsu.fitness.specification.TrainingSpecificationTest -->
+      <class name="by.bsu.fitness.observer.ClientObserverTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClientObserverImplementsObserver()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testClientObserverImplementsObserver" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientObserverImplementsObserver -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientReturnsCorrectId()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testGetClientReturnsCorrectId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientReturnsCorrectId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientReturnsCorrectName()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testGetClientReturnsCorrectName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientReturnsCorrectName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientReturnsNotNull()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testGetClientReturnsNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientReturnsNotNull -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientReturnsSameReference()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testGetClientReturnsSameReference" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientReturnsSameReference -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdateDoesNotChangeClient()[pri:0, instance:by.bsu.fitness.observer.ClientObserverTest@dbd940d]" started-at="2026-05-27T23:05:08 MSK" name="testUpdateDoesNotChangeClient" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateDoesNotChangeClient -->
+      </class> <!-- by.bsu.fitness.observer.ClientObserverTest -->
+      <class name="by.bsu.fitness.util.TrainingFileReaderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseEmptyListReturnsEmptyTrainings()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseEmptyListReturnsEmptyTrainings" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseEmptyListReturnsEmptyTrainings -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseHeaderLineSkipped()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseHeaderLineSkipped" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseHeaderLineSkipped -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseInvalidLineAddsToErrors()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseInvalidLineAddsToErrors" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseInvalidLineAddsToErrors -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseInvalidLineReturnsEmptyTrainings()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseInvalidLineReturnsEmptyTrainings" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseInvalidLineReturnsEmptyTrainings -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseMultipleValidLinesReturnsAll()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseMultipleValidLinesReturnsAll" finished-at="2026-05-27T23:05:08 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseMultipleValidLinesReturnsAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParseValidLineReturnsOneTraining()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParseValidLineReturnsOneTraining" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParseValidLineReturnsOneTraining -->
+        <test-method signature="testParsedTrainingHasCorrectClientId()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="testParsedTrainingHasCorrectClientId" finished-at="2026-05-27T23:05:09 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParsedTrainingHasCorrectClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:09 MSK" name="setUp" finished-at="2026-05-27T23:05:09 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testParsedTrainingHasCorrectCoachName()[pri:0, instance:by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4]" started-at="2026-05-27T23:05:09 MSK" name="testParsedTrainingHasCorrectCoachName" finished-at="2026-05-27T23:05:09 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParsedTrainingHasCorrectCoachName -->
+      </class> <!-- by.bsu.fitness.util.TrainingFileReaderTest -->
+      <class name="by.bsu.fitness.service.SubscriptionServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testActivateChangesStateActive()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testActivateChangesStateActive" finished-at="2026-05-27T23:05:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActivateChangesStateActive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testActivateNotFoundThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testActivateNotFoundThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Subscription not found: 999]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$activate$0(SubscriptionServiceImpl.java:60)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.activate(SubscriptionServiceImpl.java:60)
+at by.bsu.fitness.service.SubscriptionServiceTest.testActivateNotFoundThrowsServiceException(SubscriptionServiceTest.java:73)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testActivateNotFoundThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckExpirationFutureEndDateKeepsActiveState()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCheckExpirationFutureEndDateKeepsActiveState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpirationFutureEndDateKeepsActiveState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckExpirationNotFoundThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCheckExpirationNotFoundThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Subscription not found: 999]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$checkExpiration$0(SubscriptionServiceImpl.java:68)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.checkExpiration(SubscriptionServiceImpl.java:68)
+at by.bsu.fitness.service.SubscriptionServiceTest.testCheckExpirationNotFoundThrowsServiceException(SubscriptionServiceTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpirationNotFoundThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionInvalidClientIdThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionInvalidClientIdThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Failed to create subscription: invalid parameters]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Failed to create subscription: invalid parameters
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.createSubscription(SubscriptionServiceImpl.java:38)
+at by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionInvalidClientIdThrowsServiceException(SubscriptionServiceTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionInvalidClientIdThrowsServiceException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionReturnsActiveState()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionReturnsActiveState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionReturnsActiveState -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionReturnsCorrectClientId()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionReturnsCorrectClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionReturnsCorrectClientId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionReturnsNonNull()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionReturnsNonNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionReturnsNonNull -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateSubscriptionYearlyTypeReturnsCorrectType()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testCreateSubscriptionYearlyTypeReturnsCorrectType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubscriptionYearlyTypeReturnsCorrectType -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFreezeChangesStateFrozen()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testFreezeChangesStateFrozen" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFreezeChangesStateFrozen -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFreezeNotFoundThrowsServiceException()[pri:0, instance:by.bsu.fitness.service.SubscriptionServiceTest@60438a68]" started-at="2026-05-27T23:05:08 MSK" name="testFreezeNotFoundThrowsServiceException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <exception class="by.bsu.fitness.exception.ServiceException">
+            <message>
+              <![CDATA[Subscription not found: 999]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$freeze$0(SubscriptionServiceImpl.java:52)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at by.bsu.fitness.service.impl.SubscriptionServiceImpl.freeze(SubscriptionServiceImpl.java:52)
+at by.bsu.fitness.service.SubscriptionServiceTest.testFreezeNotFoundThrowsServiceException(SubscriptionServiceTest.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFreezeNotFoundThrowsServiceException -->
+      </class> <!-- by.bsu.fitness.service.SubscriptionServiceTest -->
+      <class name="by.bsu.fitness.service.NotificationServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testServiceImplementsNotificationService()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="testServiceImplementsNotificationService" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServiceImplementsNotificationService -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubscribeClientCallsAddObserverOnce()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="testSubscribeClientCallsAddObserverOnce" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscribeClientCallsAddObserverOnce -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubscribeClientTwiceCallsAddObserverTwice()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="testSubscribeClientTwiceCallsAddObserverTwice" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscribeClientTwiceCallsAddObserverTwice -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUnsubscribeClientCallsRemoveObserverOnce()[pri:0, instance:by.bsu.fitness.service.NotificationServiceTest@3439f68d]" started-at="2026-05-27T23:05:08 MSK" name="testUnsubscribeClientCallsRemoveObserverOnce" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnsubscribeClientCallsRemoveObserverOnce -->
+      </class> <!-- by.bsu.fitness.service.NotificationServiceTest -->
+      <class name="by.bsu.fitness.entity.SubscriptionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEqualsIdenticalSubscriptions()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="testEqualsIdenticalSubscriptions" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEqualsIdenticalSubscriptions -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetClientIdReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="testGetClientIdReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetClientIdReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetEndDateReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="testGetEndDateReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEndDateReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:07 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetIdReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="testGetIdReturnsCorrectValue" finished-at="2026-05-27T23:05:07 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetIdReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:07 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetStartDateReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testGetStartDateReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStartDateReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetStateReturnsActive()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testGetStateReturnsActive" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStateReturnsActive -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetTypeReturnsCorrectValue()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testGetTypeReturnsCorrectValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTypeReturnsCorrectValue -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHashCodeConsistentWithEquals()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testHashCodeConsistentWithEquals" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHashCodeConsistentWithEquals -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNotEqualsDifferentId()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testNotEqualsDifferentId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotEqualsDifferentId -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetStateExpired()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testSetStateExpired" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStateExpired -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSetStateFrozen()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testSetStateFrozen" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetStateFrozen -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToStringNotNull()[pri:0, instance:by.bsu.fitness.entity.SubscriptionTest@4f51b3e0]" started-at="2026-05-27T23:05:08 MSK" name="testToStringNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToStringNotNull -->
+      </class> <!-- by.bsu.fitness.entity.SubscriptionTest -->
+      <class name="by.bsu.fitness.util.IdGeneratorTest">
+        <test-method signature="testNextIdIsNotZero()[pri:0, instance:by.bsu.fitness.util.IdGeneratorTest@76b10754]" started-at="2026-05-27T23:05:08 MSK" name="testNextIdIsNotZero" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextIdIsNotZero -->
+        <test-method signature="testNextIdMonotonicallyIncreases()[pri:0, instance:by.bsu.fitness.util.IdGeneratorTest@76b10754]" started-at="2026-05-27T23:05:08 MSK" name="testNextIdMonotonicallyIncreases" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextIdMonotonicallyIncreases -->
+        <test-method signature="testNextIdReturnsPositiveValue()[pri:0, instance:by.bsu.fitness.util.IdGeneratorTest@76b10754]" started-at="2026-05-27T23:05:08 MSK" name="testNextIdReturnsPositiveValue" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNextIdReturnsPositiveValue -->
+        <test-method signature="testSuccessiveIdsAreDifferent()[pri:0, instance:by.bsu.fitness.util.IdGeneratorTest@76b10754]" started-at="2026-05-27T23:05:08 MSK" name="testSuccessiveIdsAreDifferent" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessiveIdsAreDifferent -->
+      </class> <!-- by.bsu.fitness.util.IdGeneratorTest -->
+      <class name="by.bsu.fitness.factory.TrainingBuilderTest">
+        <test-method signature="testBuilderAsSupplierReturnsTraining()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testBuilderAsSupplierReturnsTraining" finished-at="2026-05-27T23:05:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuilderAsSupplierReturnsTraining -->
+        <test-method signature="testClassicBuildAssignsPositiveId()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildAssignsPositiveId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildAssignsPositiveId -->
+        <test-method signature="testClassicBuildReturnsNotNull()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildReturnsNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildReturnsNotNull -->
+        <test-method signature="testClassicBuildSetsClientId()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildSetsClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildSetsClientId -->
+        <test-method signature="testClassicBuildSetsCoachName()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildSetsCoachName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildSetsCoachName -->
+        <test-method signature="testClassicBuildSetsDuration()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildSetsDuration" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildSetsDuration -->
+        <test-method signature="testClassicBuildSetsState()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildSetsState" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildSetsState -->
+        <test-method signature="testClassicBuildSetsType()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testClassicBuildSetsType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassicBuildSetsType -->
+        <test-method signature="testElegantBuilderReturnsNotNull()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testElegantBuilderReturnsNotNull" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElegantBuilderReturnsNotNull -->
+        <test-method signature="testElegantBuilderSetsClientId()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testElegantBuilderSetsClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElegantBuilderSetsClientId -->
+        <test-method signature="testElegantBuilderSetsCoachName()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testElegantBuilderSetsCoachName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElegantBuilderSetsCoachName -->
+        <test-method signature="testElegantBuilderSetsType()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testElegantBuilderSetsType" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElegantBuilderSetsType -->
+        <test-method signature="testGetDelegatesToBuild()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testGetDelegatesToBuild" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDelegatesToBuild -->
+        <test-method signature="testOfFromSupplierCopiesClientId()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testOfFromSupplierCopiesClientId" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfFromSupplierCopiesClientId -->
+        <test-method signature="testOfFromSupplierCopiesCoachName()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testOfFromSupplierCopiesCoachName" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOfFromSupplierCopiesCoachName -->
+        <test-method signature="testOptionalStepIsSupplier()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testOptionalStepIsSupplier" finished-at="2026-05-27T23:05:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOptionalStepIsSupplier -->
+        <test-method signature="testTwoBuildsHaveDifferentIds()[pri:0, instance:by.bsu.fitness.factory.TrainingBuilderTest@51b279c9]" started-at="2026-05-27T23:05:08 MSK" name="testTwoBuildsHaveDifferentIds" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoBuildsHaveDifferentIds -->
+      </class> <!-- by.bsu.fitness.factory.TrainingBuilderTest -->
+      <class name="by.bsu.fitness.repository.TrainingRepositoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndFindAllReturnsOneElement()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testAddAndFindAllReturnsOneElement" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndFindAllReturnsOneElement -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddNullThrowsRepositoryException()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testAddNullThrowsRepositoryException" finished-at="2026-05-27T23:05:08 MSK" duration-ms="11" status="PASS">
+          <exception class="by.bsu.fitness.exception.RepositoryException">
+            <message>
+              <![CDATA[Training cannot be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[by.bsu.fitness.exception.RepositoryException: Training cannot be null
+at by.bsu.fitness.repository.TrainingRepository.add(TrainingRepository.java:22)
+at by.bsu.fitness.repository.TrainingRepositoryTest.testAddNullThrowsRepositoryException(TrainingRepositoryTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.TestNG.privateMain(TestNG.java:1430)
+at org.testng.TestNG.main(TestNG.java:1394)
+]]>
+            </full-stacktrace>
+          </exception> <!-- by.bsu.fitness.exception.RepositoryException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNullThrowsRepositoryException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddTwoFindAllReturnsTwoElements()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testAddTwoFindAllReturnsTwoElements" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTwoFindAllReturnsTwoElements -->
+        <test-method signature="testFindAllEmptyRepositoryReturnsEmptyList()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testFindAllEmptyRepositoryReturnsEmptyList" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllEmptyRepositoryReturnsEmptyList -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFindAllReturnsDefensiveCopy()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testFindAllReturnsDefensiveCopy" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllReturnsDefensiveCopy -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testQueryByClientIdSpecificationReturnsCorrectTraining()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testQueryByClientIdSpecificationReturnsCorrectTraining" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryByClientIdSpecificationReturnsCorrectTraining -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testQueryByClientIdSpecificationReturnsMatchingTrainings()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testQueryByClientIdSpecificationReturnsMatchingTrainings" finished-at="2026-05-27T23:05:08 MSK" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryByClientIdSpecificationReturnsMatchingTrainings -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testQueryNoMatchReturnsEmpty()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testQueryNoMatchReturnsEmpty" finished-at="2026-05-27T23:05:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryNoMatchReturnsEmpty -->
+        <test-method signature="testSortByDurationAscendingFirstElementIsSmallest()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testSortByDurationAscendingFirstElementIsSmallest" finished-at="2026-05-27T23:05:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByDurationAscendingFirstElementIsSmallest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="setUp" finished-at="2026-05-27T23:05:08 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByDurationDescendingFirstElementIsLargest()[pri:0, instance:by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce]" started-at="2026-05-27T23:05:08 MSK" name="testSortByDurationDescendingFirstElementIsLargest" finished-at="2026-05-27T23:05:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByDurationDescendingFirstElementIsLargest -->
+      </class> <!-- by.bsu.fitness.repository.TrainingRepositoryTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

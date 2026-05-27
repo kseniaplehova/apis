@@ -1,0 +1,1369 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>196/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 27 23:05:06 MSK 2026</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2852 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetDurationMinutesReturnsCorrectValue()'><b>testGetDurationMinutesReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testHashCodeConsistentWithEquals()'><b>testHashCodeConsistentWithEquals</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testSetStateCanceled()'><b>testSetStateCanceled</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testValidLineReturnsTrue()'><b>testValidLineReturnsTrue</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: 1,Иванов,GROUP,2026-06-01T10:00,60,PLANNED</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testNotEqualsDifferentId()'><b>testNotEqualsDifferentId</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetTypeReturnsCorrectValue()'><b>testGetTypeReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingFrozenSubscriptionThrowsServiceException()'><b>testRegisterTrainingFrozenSubscriptionThrowsServiceException</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Subscription is frozen
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:57)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingFrozenSubscriptionThrowsServiceException(TrainingServiceTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace124734309", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace124734309'><pre>by.bsu.fitness.exception.ServiceException: Subscription is frozen
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:57)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingFrozenSubscriptionThrowsServiceException(TrainingServiceTest.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testFitnessExceptionIsException()'><b>testFitnessExceptionIsException</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildSetsClientId()'><b>testClassicBuildSetsClientId</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testValidationExceptionWithCause()'><b>testValidationExceptionWithCause</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testAddAndFindAllReturnsOneElement()'><b>testAddAndFindAllReturnsOneElement</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetIdReturnsCorrectValue()'><b>testGetIdReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testSortByDurationDescendingFirstElementIsLargest()'><b>testSortByDurationDescendingFirstElementIsLargest</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByCoachNameMatchesCorrectName()'><b>testByCoachNameMatchesCorrectName</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateFromSupplierEmptyForNullSupplier()'><b>testCreateFromSupplierEmptyForNullSupplier</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testQueryNoMatchReturnsEmpty()'><b>testQueryNoMatchReturnsEmpty</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionClientIdSet()'><b>testCreateSubscriptionClientIdSet</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionYearlyTypeReturnsCorrectType()'><b>testCreateSubscriptionYearlyTypeReturnsCorrectType</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testFiveFieldsLineIsValid()'><b>testFiveFieldsLineIsValid</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testValidLineReturnsTrue()'><b>testValidLineReturnsTrue</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: 2,Петров,PERSONAL,2026-07-01T11:00,45,PLANNED</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testToSupplierWithTypeNotNull()'><b>testToSupplierWithTypeNotNull</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildSetsType()'><b>testClassicBuildSetsType</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByClientIdAbsentReturnsEmpty()'><b>testFindByClientIdAbsentReturnsEmpty</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testSetStateFinished()'><b>testSetStateFinished</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testSortByDurationAscendingFirstElementIsSmallest()'><b>testSortByDurationAscendingFirstElementIsSmallest</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByIdAbsentReturnsEmpty()'><b>testFindByIdAbsentReturnsEmpty</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetTypeGroup()'><b>testGetTypeGroup</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testActivateNotFoundThrowsServiceException()'><b>testActivateNotFoundThrowsServiceException</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$activate$0(SubscriptionServiceImpl.java:60)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.activate(SubscriptionServiceImpl.java:60)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testActivateNotFoundThrowsServiceException(SubscriptionServiceTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace820537534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace820537534'><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$activate$0(SubscriptionServiceImpl.java:60)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.activate(SubscriptionServiceImpl.java:60)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testActivateNotFoundThrowsServiceException(SubscriptionServiceTest.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testGetPhoneReturnsCorrectValue()'><b>testGetPhoneReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testFitnessExceptionCause()'><b>testFitnessExceptionCause</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testInvalidLineReturnsFalse()'><b>testInvalidLineReturnsFalse</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: null</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testZeroDurationReturnsFalse()'><b>testZeroDurationReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testActivateChangesStateActive()'><b>testActivateChangesStateActive</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingSuccessAddsToRepository()'><b>testRegisterTrainingSuccessAddsToRepository</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testElegantBuilderSetsCoachName()'><b>testElegantBuilderSetsCoachName</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testAddTwoFindAllReturnsTwoElements()'><b>testAddTwoFindAllReturnsTwoElements</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.IdGeneratorTest.testNextIdMonotonicallyIncreases()'><b>testNextIdMonotonicallyIncreases</b><br>Test class: by.bsu.fitness.util.IdGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.IdGeneratorTest@76b10754</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testNegativeClientIdReturnsFalse()'><b>testNegativeClientIdReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByTypeDoesNotMatchPersonalType()'><b>testByTypeDoesNotMatchPersonalType</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testFreezeChangesStateFrozen()'><b>testFreezeChangesStateFrozen</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testSetPhoneUpdatesPhone()'><b>testSetPhoneUpdatesPhone</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testEndBeforeStartReturnsFalse()'><b>testEndBeforeStartReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testSetNameUpdatesName()'><b>testSetNameUpdatesName</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testHashCodeConsistentWithEquals()'><b>testHashCodeConsistentWithEquals</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testValidationExceptionIsFitnessException()'><b>testValidationExceptionIsFitnessException</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testGetNameReturnsCorrectValue()'><b>testGetNameReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testNullEndDateReturnsFalse()'><b>testNullEndDateReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetStartDateReturnsCorrectValue()'><b>testGetStartDateReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testGetClientReturnsNotNull()'><b>testGetClientReturnsNotNull</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testFindByIdReturnsCorrectClient()'><b>testFindByIdReturnsCorrectClient</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateFromSupplierUsesProvidedType()'><b>testCreateFromSupplierUsesProvidedType</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testOptionalStepIsSupplier()'><b>testOptionalStepIsSupplier</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testFitnessExceptionMessage()'><b>testFitnessExceptionMessage</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testValidTrainingReturnsTrue()'><b>testValidTrainingReturnsTrue</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testAddMultipleClientsCanFindSecond()'><b>testAddMultipleClientsCanFindSecond</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testNegativeDurationReturnsFalse()'><b>testNegativeDurationReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetCoachNameReturnsCorrectValue()'><b>testGetCoachNameReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testZeroClientIdReturnsFalse()'><b>testZeroClientIdReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testNullTrainingReturnsFalse()'><b>testNullTrainingReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetStatePlanned()'><b>testGetStatePlanned</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testNotEqualsDifferentId()'><b>testNotEqualsDifferentId</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionEmptyForZeroClientId()'><b>testCreateSubscriptionEmptyForZeroClientId</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.NotificationServiceTest.testSubscribeClientTwiceCallsAddObserverTwice()'><b>testSubscribeClientTwiceCallsAddObserverTwice</b><br>Test class: by.bsu.fitness.service.NotificationServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.NotificationServiceTest@3439f68d</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateFromSupplierIsPresentForValidParams()'><b>testCreateFromSupplierIsPresentForValidParams</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testUpdateDoesNotChangeClient()'><b>testUpdateDoesNotChangeClient</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionIsPresentForValidParams()'><b>testCreateSubscriptionIsPresentForValidParams</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest<br>Parameters: YEARLY</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testNegativeClientIdReturnsFalse()'><b>testNegativeClientIdReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testGetDelegatesToBuild()'><b>testGetDelegatesToBuild</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionReturnsActiveState()'><b>testCreateSubscriptionReturnsActiveState</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.template.RegistrationTemplateTest.testPersonalRegistrationNotifiesWithCorrectTrainingId()'><b>testPersonalRegistrationNotifiesWithCorrectTrainingId</b><br>Test class: by.bsu.fitness.template.RegistrationTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.template.RegistrationTemplateTest@de3a06f</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testGetClientReturnsCorrectName()'><b>testGetClientReturnsCorrectName</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.NotificationServiceTest.testServiceImplementsNotificationService()'><b>testServiceImplementsNotificationService</b><br>Test class: by.bsu.fitness.service.NotificationServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.NotificationServiceTest@3439f68d</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.IdGeneratorTest.testSuccessiveIdsAreDifferent()'><b>testSuccessiveIdsAreDifferent</b><br>Test class: by.bsu.fitness.util.IdGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.IdGeneratorTest@76b10754</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseValidLineReturnsOneTraining()'><b>testParseValidLineReturnsOneTraining</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByDateMatchesCorrectDate()'><b>testByDateMatchesCorrectDate</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByClientIdMatchesCorrectClient()'><b>testByClientIdMatchesCorrectClient</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseHeaderLineSkipped()'><b>testParseHeaderLineSkipped</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testTwoObserversBothNotified()'><b>testTwoObserversBothNotified</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testServiceExceptionWithCause()'><b>testServiceExceptionWithCause</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testOfFromSupplierCopiesClientId()'><b>testOfFromSupplierCopiesClientId</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testToStringNotNull()'><b>testToStringNotNull</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testElegantBuilderReturnsNotNull()'><b>testElegantBuilderReturnsNotNull</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testValidLineReturnsTrue()'><b>testValidLineReturnsTrue</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: 1,a,b,c,d,e</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testEqualsIdenticalSubscriptions()'><b>testEqualsIdenticalSubscriptions</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testFindByIdAbsentClientReturnsEmpty()'><b>testFindByIdAbsentClientReturnsEmpty</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionVisitBasedEndDate()'><b>testCreateSubscriptionVisitBasedEndDate</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testEmptyCoachNameReturnsFalse()'><b>testEmptyCoachNameReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testRepositoryExceptionIsFitnessException()'><b>testRepositoryExceptionIsFitnessException</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testElegantBuilderSetsClientId()'><b>testElegantBuilderSetsClientId</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionEmptyForNegativeClientId()'><b>testCreateSubscriptionEmptyForNegativeClientId</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testValidationExceptionMessage()'><b>testValidationExceptionMessage</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testQueryByClientIdSpecificationReturnsMatchingTrainings()'><b>testQueryByClientIdSpecificationReturnsMatchingTrainings</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testGetClientReturnsCorrectId()'><b>testGetClientReturnsCorrectId</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionReturnsCorrectClientId()'><b>testCreateSubscriptionReturnsCorrectClientId</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testSetStateActive()'><b>testSetStateActive</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildSetsCoachName()'><b>testClassicBuildSetsCoachName</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.template.RegistrationTemplateTest.testPersonalRegistrationNotifiesObservers()'><b>testPersonalRegistrationNotifiesObservers</b><br>Test class: by.bsu.fitness.template.RegistrationTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.template.RegistrationTemplateTest@de3a06f</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testOfFromSupplierCopiesCoachName()'><b>testOfFromSupplierCopiesCoachName</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetClientIdReturnsCorrectValue()'><b>testGetClientIdReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testFindAllEmptyRepositoryReturnsEmptyList()'><b>testFindAllEmptyRepositoryReturnsEmptyList</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testNullSubscriptionReturnsFalse()'><b>testNullSubscriptionReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNoSubscriptionThrowsServiceException()'><b>testRegisterTrainingNoSubscriptionThrowsServiceException</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: No subscription for client 999
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:52)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNoSubscriptionThrowsServiceException(TrainingServiceTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace909282611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace909282611'><pre>by.bsu.fitness.exception.ServiceException: No subscription for client 999
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:52)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNoSubscriptionThrowsServiceException(TrainingServiceTest.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testInvalidLineReturnsFalse()'><b>testInvalidLineReturnsFalse</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testGetIdReturnsCorrectValue()'><b>testGetIdReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testHashCodeConsistentWithEquals()'><b>testHashCodeConsistentWithEquals</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testZeroClientIdReturnsFalse()'><b>testZeroClientIdReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByTypeMatchesGroupType()'><b>testByTypeMatchesGroupType</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testRemoveObserverPreventsNotification()'><b>testRemoveObserverPreventsNotification</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByCoachNameDoesNotMatchOtherName()'><b>testByCoachNameDoesNotMatchOtherName</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testValidatorImplementsValidatorInterface()'><b>testValidatorImplementsValidatorInterface</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.TrainingValidatorTest.testNullCoachNameReturnsFalse()'><b>testNullCoachNameReturnsFalse</b><br>Test class: by.bsu.fitness.validator.TrainingValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.TrainingValidatorTest@1ad282e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testNullStartDateReturnsFalse()'><b>testNullStartDateReturnsFalse</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingExpiredSubscriptionThrowsServiceException()'><b>testRegisterTrainingExpiredSubscriptionThrowsServiceException</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Subscription expired
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:62)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingExpiredSubscriptionThrowsServiceException(TrainingServiceTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586358252", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace586358252'><pre>by.bsu.fitness.exception.ServiceException: Subscription expired
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:62)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingExpiredSubscriptionThrowsServiceException(TrainingServiceTest.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testNotifyPassesCorrectTrainingId()'><b>testNotifyPassesCorrectTrainingId</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testToSupplierWithTypeSupplierNotNull()'><b>testToSupplierWithTypeSupplierNotNull</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseInvalidLineAddsToErrors()'><b>testParseInvalidLineAddsToErrors</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByClientIdAfterAddReturnsPresent()'><b>testFindByClientIdAfterAddReturnsPresent</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetIdReturnsCorrectValue()'><b>testGetIdReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testRepositoryExceptionMessage()'><b>testRepositoryExceptionMessage</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionYearlyEndDate()'><b>testCreateSubscriptionYearlyEndDate</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildReturnsNotNull()'><b>testClassicBuildReturnsNotNull</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildSetsState()'><b>testClassicBuildSetsState</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByIdReturnsCorrectType()'><b>testFindByIdReturnsCorrectType</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testEqualsIdenticalClients()'><b>testEqualsIdenticalClients</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionIsPresentForValidParams()'><b>testCreateSubscriptionIsPresentForValidParams</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest<br>Parameters: VISIT_BASED</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testValidatorImplementsValidatorInterface()'><b>testValidatorImplementsValidatorInterface</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterPersonalTrainingSuccessAddsToRepository()'><b>testRegisterPersonalTrainingSuccessAddsToRepository</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testEqualsIdenticalTrainings()'><b>testEqualsIdenticalTrainings</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.strategy.StrategyTest.testGroupStrategyImplementsTrainingStrategy()'><b>testGroupStrategyImplementsTrainingStrategy</b><br>Test class: by.bsu.fitness.strategy.StrategyTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.strategy.StrategyTest@6c9f5c0d</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.IdGeneratorTest.testNextIdIsNotZero()'><b>testNextIdIsNotZero</b><br>Test class: by.bsu.fitness.util.IdGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.IdGeneratorTest@76b10754</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetDateTimeReturnsCorrectValue()'><b>testGetDateTimeReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseMultipleValidLinesReturnsAll()'><b>testParseMultipleValidLinesReturnsAll</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParsedTrainingHasCorrectCoachName()'><b>testParsedTrainingHasCorrectCoachName</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testGetClientReturnsSameReference()'><b>testGetClientReturnsSameReference</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByClientIdReturnsCorrectClientId()'><b>testFindByClientIdReturnsCorrectClientId</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByDurationMatchesCorrectDuration()'><b>testByDurationMatchesCorrectDuration</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testInvalidLineReturnsFalse()'><b>testInvalidLineReturnsFalse</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: a,b,c,d</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testValidatorImplementsValidatorInterface()'><b>testValidatorImplementsValidatorInterface</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByDurationDoesNotMatchOtherDuration()'><b>testByDurationDoesNotMatchOtherDuration</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByIdAfterAddReturnsPresent()'><b>testFindByIdAfterAddReturnsPresent</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.NotificationServiceTest.testUnsubscribeClientCallsRemoveObserverOnce()'><b>testUnsubscribeClientCallsRemoveObserverOnce</b><br>Test class: by.bsu.fitness.service.NotificationServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.NotificationServiceTest@3439f68d</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testSetStateExpired()'><b>testSetStateExpired</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.SubscriptionValidatorTest.testValidSubscriptionReturnsTrue()'><b>testValidSubscriptionReturnsTrue</b><br>Test class: by.bsu.fitness.validator.SubscriptionValidatorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.SubscriptionValidatorTest@7f416310</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testToSupplierWithTypeSupplierGetReturnsPresent()'><b>testToSupplierWithTypeSupplierGetReturnsPresent</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testElegantBuilderSetsType()'><b>testElegantBuilderSetsType</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testServiceExceptionMessage()'><b>testServiceExceptionMessage</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionIsPresentForValidParams()'><b>testCreateSubscriptionIsPresentForValidParams</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest<br>Parameters: MONTHLY</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.template.RegistrationTemplateTest.testGroupRegistrationNotifiesWithCorrectTrainingId()'><b>testGroupRegistrationNotifiesWithCorrectTrainingId</b><br>Test class: by.bsu.fitness.template.RegistrationTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.template.RegistrationTemplateTest@de3a06f</td></tr>
+<tr>
+<td title='by.bsu.fitness.strategy.StrategyTest.testPersonalStrategyExecuteDoesNotChangeState()'><b>testPersonalStrategyExecuteDoesNotChangeState</b><br>Test class: by.bsu.fitness.strategy.StrategyTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.strategy.StrategyTest@6c9f5c0d</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCheckExpirationNotFoundThrowsServiceException()'><b>testCheckExpirationNotFoundThrowsServiceException</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$checkExpiration$0(SubscriptionServiceImpl.java:68)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.checkExpiration(SubscriptionServiceImpl.java:68)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testCheckExpirationNotFoundThrowsServiceException(SubscriptionServiceTest.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace330128595", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace330128595'><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$checkExpiration$0(SubscriptionServiceImpl.java:68)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.checkExpiration(SubscriptionServiceImpl.java:68)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testCheckExpirationNotFoundThrowsServiceException(SubscriptionServiceTest.java:78)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionReturnsNonNull()'><b>testCreateSubscriptionReturnsNonNull</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionInvalidClientIdThrowsServiceException()'><b>testCreateSubscriptionInvalidClientIdThrowsServiceException</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Failed to create subscription: invalid parameters
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.createSubscription(SubscriptionServiceImpl.java:38)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionInvalidClientIdThrowsServiceException(SubscriptionServiceTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1542520418", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1542520418'><pre>by.bsu.fitness.exception.ServiceException: Failed to create subscription: invalid parameters
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.createSubscription(SubscriptionServiceImpl.java:38)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testCreateSubscriptionInvalidClientIdThrowsServiceException(SubscriptionServiceTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.ClientObserverTest.testClientObserverImplementsObserver()'><b>testClientObserverImplementsObserver</b><br>Test class: by.bsu.fitness.observer.ClientObserverTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.ClientObserverTest@dbd940d</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseInvalidLineReturnsEmptyTrainings()'><b>testParseInvalidLineReturnsEmptyTrainings</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testTwoBuildsHaveDifferentIds()'><b>testTwoBuildsHaveDifferentIds</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.SubscriptionRepositoryTest.testFindByClientIdReturnsCorrectState()'><b>testFindByClientIdReturnsCorrectState</b><br>Test class: by.bsu.fitness.repository.SubscriptionRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.SubscriptionRepositoryTest@50de0926</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildSetsDuration()'><b>testClassicBuildSetsDuration</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testToStringNotNull()'><b>testToStringNotNull</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testFindByIdReturnsPhone()'><b>testFindByIdReturnsPhone</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testCheckExpirationFutureEndDateKeepsActiveState()'><b>testCheckExpirationFutureEndDateKeepsActiveState</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testClassicBuildAssignsPositiveId()'><b>testClassicBuildAssignsPositiveId</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testFindByIdAfterAddReturnsPresent()'><b>testFindByIdAfterAddReturnsPresent</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParsedTrainingHasCorrectClientId()'><b>testParsedTrainingHasCorrectClientId</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionEmptyForNullType()'><b>testCreateSubscriptionEmptyForNullType</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testRepositoryExceptionWithCause()'><b>testRepositoryExceptionWithCause</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testToStringContainsId()'><b>testToStringContainsId</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetEndDateReturnsCorrectValue()'><b>testGetEndDateReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testObservableImplementsObservable()'><b>testObservableImplementsObservable</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionStateIsActive()'><b>testCreateSubscriptionStateIsActive</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testNotEqualsDifferentId()'><b>testNotEqualsDifferentId</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.TrainingBuilderTest.testBuilderAsSupplierReturnsTraining()'><b>testBuilderAsSupplierReturnsTraining</b><br>Test class: by.bsu.fitness.factory.TrainingBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.TrainingBuilderTest@51b279c9</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.SubscriptionServiceTest.testFreezeNotFoundThrowsServiceException()'><b>testFreezeNotFoundThrowsServiceException</b><br>Test class: by.bsu.fitness.service.SubscriptionServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$freeze$0(SubscriptionServiceImpl.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.freeze(SubscriptionServiceImpl.java:52)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testFreezeNotFoundThrowsServiceException(SubscriptionServiceTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace124058278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace124058278'><pre>by.bsu.fitness.exception.ServiceException: Subscription not found: 999
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.lambda$freeze$0(SubscriptionServiceImpl.java:52)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at by.bsu.fitness.service.impl.SubscriptionServiceImpl.freeze(SubscriptionServiceImpl.java:52)
+	at by.bsu.fitness.service.SubscriptionServiceTest.testFreezeNotFoundThrowsServiceException(SubscriptionServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.SubscriptionServiceTest@60438a68</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testToSupplierWithTypeGetReturnsPresent()'><b>testToSupplierWithTypeGetReturnsPresent</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testAddNullThrowsRepositoryException()'><b>testAddNullThrowsRepositoryException</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td><div><pre>by.bsu.fitness.exception.RepositoryException: Training cannot be null
+	at by.bsu.fitness.repository.TrainingRepository.add(TrainingRepository.java:22)
+	at by.bsu.fitness.repository.TrainingRepositoryTest.testAddNullThrowsRepositoryException(TrainingRepositoryTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace341372316", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341372316'><pre>by.bsu.fitness.exception.RepositoryException: Training cannot be null
+	at by.bsu.fitness.repository.TrainingRepository.add(TrainingRepository.java:22)
+	at by.bsu.fitness.repository.TrainingRepositoryTest.testAddNullThrowsRepositoryException(TrainingRepositoryTest.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testNoObserversNoNotification()'><b>testNoObserversNoNotification</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.IdGeneratorTest.testNextIdReturnsPositiveValue()'><b>testNextIdReturnsPositiveValue</b><br>Test class: by.bsu.fitness.util.IdGeneratorTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.IdGeneratorTest@76b10754</td></tr>
+<tr>
+<td title='by.bsu.fitness.exception.ExceptionTest.testServiceExceptionIsFitnessException()'><b>testServiceExceptionIsFitnessException</b><br>Test class: by.bsu.fitness.exception.ExceptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.exception.ExceptionTest@5e57643e</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.ClientRepositoryTest.testFindByIdReturnsCorrectId()'><b>testFindByIdReturnsCorrectId</b><br>Test class: by.bsu.fitness.repository.ClientRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.ClientRepositoryTest@5e955596</td></tr>
+<tr>
+<td title='by.bsu.fitness.strategy.StrategyTest.testGroupStrategyExecuteDoesNotChangeState()'><b>testGroupStrategyExecuteDoesNotChangeState</b><br>Test class: by.bsu.fitness.strategy.StrategyTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.strategy.StrategyTest@6c9f5c0d</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByClientIdDoesNotMatchOtherClient()'><b>testByClientIdDoesNotMatchOtherClient</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testCreateSubscriptionMonthlyEndDate()'><b>testCreateSubscriptionMonthlyEndDate</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testGetStateReturnsActive()'><b>testGetStateReturnsActive</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testFindAllReturnsDefensiveCopy()'><b>testFindAllReturnsDefensiveCopy</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.util.TrainingFileReaderTest.testParseEmptyListReturnsEmptyTrainings()'><b>testParseEmptyListReturnsEmptyTrainings</b><br>Test class: by.bsu.fitness.util.TrainingFileReaderTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.util.TrainingFileReaderTest@2bea5ab4</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.ClientTest.testToStringNotNull()'><b>testToStringNotNull</b><br>Test class: by.bsu.fitness.entity.ClientTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.ClientTest@b3d7190</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.NotificationServiceTest.testSubscribeClientCallsAddObserverOnce()'><b>testSubscribeClientCallsAddObserverOnce</b><br>Test class: by.bsu.fitness.service.NotificationServiceTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.service.NotificationServiceTest@3439f68d</td></tr>
+<tr>
+<td title='by.bsu.fitness.strategy.StrategyTest.testPersonalStrategyImplementsTrainingStrategy()'><b>testPersonalStrategyImplementsTrainingStrategy</b><br>Test class: by.bsu.fitness.strategy.StrategyTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.strategy.StrategyTest@6c9f5c0d</td></tr>
+<tr>
+<td title='by.bsu.fitness.observer.TrainingScheduleObservableTest.testNotifyCallsUpdate()'><b>testNotifyCallsUpdate</b><br>Test class: by.bsu.fitness.observer.TrainingScheduleObservableTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.observer.TrainingScheduleObservableTest@71d15f18</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.TrainingTest.testGetClientIdReturnsCorrectValue()'><b>testGetClientIdReturnsCorrectValue</b><br>Test class: by.bsu.fitness.entity.TrainingTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.TrainingTest@4b9e255</td></tr>
+<tr>
+<td title='by.bsu.fitness.repository.TrainingRepositoryTest.testQueryByClientIdSpecificationReturnsCorrectTraining()'><b>testQueryByClientIdSpecificationReturnsCorrectTraining</b><br>Test class: by.bsu.fitness.repository.TrainingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.repository.TrainingRepositoryTest@2473b9ce</td></tr>
+<tr>
+<td title='by.bsu.fitness.factory.SubscriptionFactoryTest.testToSupplierWithTypeGetReturnsInvalidForBadClientId()'><b>testToSupplierWithTypeGetReturnsInvalidForBadClientId</b><br>Test class: by.bsu.fitness.factory.SubscriptionFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.factory.SubscriptionFactoryTest@133e16fd</td></tr>
+<tr>
+<td title='by.bsu.fitness.template.RegistrationTemplateTest.testGroupRegistrationNotifiesObservers()'><b>testGroupRegistrationNotifiesObservers</b><br>Test class: by.bsu.fitness.template.RegistrationTemplateTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.template.RegistrationTemplateTest@de3a06f</td></tr>
+<tr>
+<td title='by.bsu.fitness.specification.TrainingSpecificationTest.testByDateDoesNotMatchOtherDate()'><b>testByDateDoesNotMatchOtherDate</b><br>Test class: by.bsu.fitness.specification.TrainingSpecificationTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.specification.TrainingSpecificationTest@17695df3</td></tr>
+<tr>
+<td title='by.bsu.fitness.validator.DataValidatorTest.testInvalidLineReturnsFalse()'><b>testInvalidLineReturnsFalse</b><br>Test class: by.bsu.fitness.validator.DataValidatorTest<br>Parameters: 1,2,3</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.validator.DataValidatorTest@1cab0bfb</td></tr>
+<tr>
+<td title='by.bsu.fitness.entity.SubscriptionTest.testSetStateFrozen()'><b>testSetStateFrozen</b><br>Test class: by.bsu.fitness.entity.SubscriptionTest</td>
+<td></td>
+<td>0</td>
+<td>by.bsu.fitness.entity.SubscriptionTest@4f51b3e0</td></tr>
+<tr>
+<td title='by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNullThrowsServiceException()'><b>testRegisterTrainingNullThrowsServiceException</b><br>Test class: by.bsu.fitness.service.TrainingServiceTest</td>
+<td><div><pre>by.bsu.fitness.exception.ServiceException: Training validation failed
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:47)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNullThrowsServiceException(TrainingServiceTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2131597042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2131597042'><pre>by.bsu.fitness.exception.ServiceException: Training validation failed
+	at by.bsu.fitness.service.impl.TrainingServiceImpl.registerTraining(TrainingServiceImpl.java:47)
+	at by.bsu.fitness.service.TrainingServiceTest.testRegisterTrainingNullThrowsServiceException(TrainingServiceTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.TestNG.privateMain(TestNG.java:1430)
+	at org.testng.TestNG.main(TestNG.java:1394)
+</pre></div></td>
+<td>0</td>
+<td>by.bsu.fitness.service.TrainingServiceTest@140e5a13</td></tr>
+</table><p>
+</body>
+</html>
